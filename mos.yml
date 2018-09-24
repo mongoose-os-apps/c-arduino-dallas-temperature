@@ -11,15 +11,13 @@ sources:
 filesystem:
   - fs
 libs:
-    # common mgos libs
-  - origin: https://github.com/mongoose-os-libs/ca-bundle
-  - origin: https://github.com/mongoose-os-libs/i2c
+  # common mgos libs
+  - origin: https://github.com/mongoose-os-libs/boards
   - origin: https://github.com/mongoose-os-libs/rpc-service-config
   - origin: https://github.com/mongoose-os-libs/rpc-service-fs
   - origin: https://github.com/mongoose-os-libs/rpc-uart
-  - origin: https://github.com/mongoose-os-libs/spi
 
-    # libs necessary for the current app
+  # libs necessary for the current app
   - origin: https://github.com/mongoose-os-libs/arduino-dallas-temperature
 
 tags:
